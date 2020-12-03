@@ -1,0 +1,10 @@
+name: create_trigger
+
+on: [create]
+
+jobs:
+  name:
+    runs-on: ubuntu-latest
+    name: Running after create
+    steps:
+    - uses: actions/first-interaction@v1
